@@ -1,0 +1,7 @@
+import preos
+# pass name, Tc, Pc, omega
+CO2 = preos.Molecule("CO2", 31.25 + 273.15, 73.8, 0.228)
+CO2.print_params()
+
+# pass the Molecule, T, P of interest
+props = preos.preos(CO2, 298.0, 10.0, plotcubic=True, printresults=True)
