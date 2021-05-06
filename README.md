@@ -1,2 +1,2 @@
-# Eq_of_State
-Computes compressibility for a given pressure and temperature using Peng-Robinson EoS 
+# Eq_of_State Solver
+Computes compressibility Z for a given pressure P and temperature T using Peng-Robinson Equation of State 
